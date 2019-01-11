@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+    <string name="title_activity_navigation_acitivity">NavigationAcitivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="library">Library</string>
+    <string name="playlists">Playlists</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="folders">Folders</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="black_is_beautiful">Black is Beautiful</string>
+    <string name="chronix">Chronix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,5 +1,6 @@
 package com.example.dainr.mediaplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
@@ -17,6 +18,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+//http://codedivasbysrishti.blogspot.com/2017/04/combining-navigation-drawer-and.html
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
@@ -107,28 +110,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         break;
 
                     case R.id.nav_playlists:
-                        title = "Playlists";
-                        viewPager.setCurrentItem(1);
+                        Intent intent = new Intent(MainActivity.this,PlaylistActivity.class);
+                        startActivity(intent);
                         break;
 
                     case R.id.nav_now_playing:
-                        title = "Now Playing";
-                        viewPager.setCurrentItem(2);
+                        intent = new Intent(MainActivity.this, NowPlayingActivity.class);
+                        startActivity(intent);
                         break;
 
                     case R.id.nav_folders:
-                        title = "Folders";
-                        viewPager.setCurrentItem(3);
+                        intent = new Intent(MainActivity.this, FoldersActivity.class);
+                        startActivity(intent);
                         break;
 
                     case R.id.nav_settings:
-                        title = "Settings";
-                        viewPager.setCurrentItem(4);
+                        intent = new Intent(MainActivity.this, SettingsActivity.class);
+                        startActivity(intent);
                         break;
 
                     case R.id.nav_about:
-                        title = "About Us";
-                        viewPager.setCurrentItem(5);
+                        intent = new Intent(MainActivity.this, AboutActivity.class);
+                        startActivity(intent);
                         break;
                 }
 
